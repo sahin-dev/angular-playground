@@ -1,0 +1,4 @@
+<p>user-profile works!</p>
+<p>User is {{isLogin() ? 'User logged in': "user not lopgged in"}}</p>
+<button [disabled]="isLogin()" [attr.abc] = "isLogin()"(click)="login()">Log in</button>
+
